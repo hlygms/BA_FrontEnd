@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="title" content="Product Request Form" />
+    
+  </head>
+  <body>
+    <header class="main-header">
+        <h1>Product Request Form</h1>
+    </header>
+    <main> 
+      <section class="request-form">
+		  <form action="">
+		  <fieldset>
+			  <legend>Identifying Information:</legend>     
+			  <label for="firstName">First Name</label>
+			  <input type="text" name="firstName" id="firstName" />
+			  <label for="lastName">Last Name</label>
+			  <input type="text" name="lastName" id="lastName" />
+			  <div>
+				  <label for="email">Email address</label>
+				  <input type="text" name="email" id="email" />
+			  </div>
+          </fieldset>
+		
+		  <fieldset>
+			  <legend>Selections:</legend> 
+			  <h3>Color Selection</h3>
+			  <input type="radio" name="color" id="colorRed" />
+              <label for="colorRed">Red</label>
+			  <input type="radio" name="color" id="colorBlue" />
+              <label for="colorBlue">Blue</label>
+			  <input type="radio" name="color" id="colorGreen" />
+              <label for="colorGreen">Green</label>
+			  <input type="radio" name="color" id="colorWhite" />
+              <label for="colorWhite">White</label>
+			  
+			  <h3>Product Selection</h3>
+			  <input type="checkbox" name="flug" id="chkFlug" >
+			  <label for="chkFlug">Flug</label>
+			  <input type="number" name="nmbFlug" id="nmbFlug">
+			  <label for="nmbFlug">Quantity</label>
+			  <input type="checkbox" name="sweater" id="chkSweater" >
+			  <label for="chkSweater">Sweater</label>
+			  <input type="number" name="nmbSweater" id="nmbSweater">
+			  <label for="nmbSweater">Quantity</label>
+	      </fieldset>
+			  
+		  <fieldset>
+			  <legend>Shipping Selection:</legend> 
+		      <label for="shippingType">Select type of shipping:</label>
+			  <select id="shippingType" name="shippingType">
+				      <option selected>Please choose</option>
+					  <option value="oneDay">One Day Shipping</option>
+					  <option value="oneWeek">One Week Shipping</option>
+				      </select>
+	      </fieldset>
+			  
+	      <fieldset>
+			  <legend>Submit yur order</legend> 
+			  <div>
+			  	<label for="order">Please enter any speacial instructions:</label>
+			  </div>
+			  <textarea name="order" rows="6" cols="24">
+		      </textarea>
+			  <div>
+			  <button type="submit">Submit</button>
+			  </div>
+	      </fieldset>
+	      </form>
+      </section>
+    </main>
+  </body>
+</html>
