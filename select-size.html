@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="title" content="Toffy Coffee" />
+    <meta
+      name="description"
+      content="En taze ve lezzetli kahve deneyimini keşfedin! Lezzetli kahve çekirdekleri ve özenle hazırlanan kahve karışımlarıyla kahve keyfinizi en üst seviyeye çıkarın. "
+    />
+    <title>Toffy Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="/" class="logo">
+        <img
+          src="images/coffee-icon.svg"
+          alt="Toffy Coffee Logosu"
+          width="60"
+        />
+        <h1>Toffy Coffee</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Kahve Çeşitlerimiz</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-banner">
+        <img src="images/main_img.jpg" alt="Toffy Coffee Banner" />
+      </section>
+      <section class="main-content">
+        <form action="">
+          <h1>Kahve kupa boyutunu seç</h1>
+          <table class="main-table">
+            <tr>
+              <td colspan="3" class="table-img">
+                <img
+                  src="images/coffee-cup-size.svg"
+                  alt="Toffy Coffee"
+                  width="60"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="coffeeSize" id="sizeLittle" />
+                <label for="sizeLittle">Küçük</label>
+              </td>
+              <td>
+                <input type="radio" name="coffeeSize" id="sizeMedium" />
+                <label for="sizeMedium">Orta</label>
+              </td>
+              <td>
+                <input type="radio" name="coffeeSize" id="sizeBig" />
+                <label for="sizeBig">Büyük</label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <button type="submit" formaction="checkout.html">Seç</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section>
+        <p>Toffy Coffee @2023</p>
+      </section>
+    </footer>
+  </body>
+</html>

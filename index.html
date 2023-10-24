@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="title" content="Toffy Coffee" />
+    <meta
+      name="description"
+      content="En taze ve lezzetli kahve deneyimini keşfedin! Lezzetli kahve çekirdekleri ve özenle hazırlanan kahve karışımlarıyla kahve keyfinizi en üst seviyeye çıkarın. "
+    />
+    <title>Toffy Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="/" class="logo">
+        <img
+          src="images/coffee-icon.svg"
+          alt="Toffy Coffee Logosu"
+          width="60"
+        />
+        <h1>Toffy Coffee</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Kahve Çeşitlerimiz</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-banner">
+        <img src="images/main_img.jpg" alt="Toffy Coffee Banner" />
+      </section>
+      <section class="main-content">
+        <form action="">
+          <h1>Kahveni seç</h1>
+          <table class="main-table">
+            <tr>
+              <td colspan="3" class="table-img">
+                <img
+                  src="images/coffee-icon.svg"
+                  alt="Toffy Coffee"
+                  width="60"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="coffee" id="coffeeAmericano" />
+                <label for="coffeeAmericano">Americano</label>
+              </td>
+              <td>
+                <input type="radio" name="coffee" id="coffeeExpresso" />
+                <label for="coffeeExpresso">Expresso</label>
+              </td>
+              <td>
+                <input type="radio" name="coffee" id="coffeeLatte" />
+                <label for="coffeeLatte">Latte</label> <br />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <button type="submit" formaction="select-bean.html">Seç</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section>
+        <p>Toffy Coffee @2023</p>
+      </section>
+    </footer>
+  </body>
+</html>
